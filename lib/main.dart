@@ -132,7 +132,10 @@ Widget _buildButton4(int? num) {
       height: 75.0,
       child: TextButton(
         onPressed: (){},
-        child: Text('$num'),
+        child: Text('$num',style: TextStyle(
+          color: Colors.black,
+          fontSize: 20,
+        ),),
       ),
       //color: Colors.white, // ห้ามกำหนด color ตรงนี้ ถ้าหากกำหนดใน BoxDecoration แล้ว
       decoration: BoxDecoration(
